@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste de Temperamento</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Teste de Temperamento</h1>
+    <div class="progress-bar">
+      <div class="progress" id="progress-bar"></div>
+    </div>
+    <div id="question-container"></div>
+    <div class="button-container">
+      <button id="next-button">Próxima</button>
+      <button id="restart-button" class="hidden">Reiniciar</button>
+    </div>
+    <div id="result" class="hidden">
+      <h2>Seu Temperamento:</h2>
+      <p id="temperament-result"></p>
+      <p>Total de participantes: <span id="total-participants">0</span></p>
+      <div id="rank">
+        <h3>Distribuição dos temperamentos:</h3>
+        <ul>
+          <li>Fleumático: <span id="fleumatico-count">0</span></li>
+          <li>Melancólico: <span id="melancolico-count">0</span></li>
+          <li>Sanguíneo: <span id="sanguineo-count">0</span></li>
+          <li>Colérico: <span id="colerico-count">0</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
